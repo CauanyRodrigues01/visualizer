@@ -71,7 +71,7 @@ A **Plataforma Acadêmica Visualizer** representa um avanço estratégico para a
 
 ---
 
-## 📷 Prévia do Projeto
+## 📷 Identidade visual
 
 ![Preview do Visualizer](/src/images/logo.png)
 
