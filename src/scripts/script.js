@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         splash.classList.add("fade-out");
 
         setTimeout(() => {
-            window.location.href = "/src/pages/home.html";
+            window.location.href = "./src/pages/home.html";
         }, 300)
     }, 2000)
 });
