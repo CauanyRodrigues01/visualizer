@@ -29,8 +29,8 @@ function SearchBar() {
                 </div>
 
                 <div className="input-wrapper">
-                    <i className="bi bi-search"></i>
                     <input type="text" placeholder="Procurar" />
+                    <i className="bi bi-search"></i>
                 </div>
             </div>
         </div>
