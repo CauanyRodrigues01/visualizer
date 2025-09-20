@@ -1,19 +1,10 @@
-@import url("../base/variables.css");
-@import url("../base/reset.css");
-
-/* ==========================
-   Estilos globais
-   ========================== */
-body {
-    margin: 0;
-    font-family: var(--font-family-primary);
-    background: var(--bg-light);
-    color: var(--text-dark);
-}
-
 /* ==========================
    Barra inferior
    ========================== */
+main {
+    padding-bottom: 70px; /* ou a mesma altura do .bottom-nav */
+}
+
 .bottom-nav {
     position: fixed;
     bottom: 0;

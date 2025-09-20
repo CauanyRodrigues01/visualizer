@@ -1,0 +1,71 @@
+/* ==========================
+   Post Card
+   ========================== */
+.post-card {
+    background: var(--text-light);
+    border-radius: var(--radius);
+    padding: var(--space-sm);
+    margin: var(--space-sm);
+    box-shadow: var(--shadow);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.date {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    margin: 0;
+}
+
+/* Corpo do post (texto à esquerda, imagem à direita) */
+.post-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.post-content {
+    flex: 2;
+}
+
+.post-title {
+    font-size: var(--text-md);
+    margin: 0 0 var(--space-xs) 0;
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-dark);
+}
+
+.post-text {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.post-image {
+    flex: 1;
+    max-width: 100px;
+    border-radius: var(--radius);
+    object-fit: cover;
+}
+
+/* Rodapé com curtidas e comentários */
+.post-footer {
+    display: flex;
+    gap: var(--space-md);
+    color: var(--muted-color);
+    font-size: var(--text-sm);
+}

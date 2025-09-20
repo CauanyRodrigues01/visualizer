@@ -1,0 +1,92 @@
+/* ==========================
+   Search Bar
+   ========================== */
+
+/* Wrapper para fixar no topo */
+.search-bar-wrapper {
+    position: sticky;
+    top: 0;
+    background: var(--bg-light);
+    z-index: 9;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm);
+    background: var(--bg-light);
+}
+
+.filter-btn {
+    background: var(--text-light);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-sm);
+    color: var(--text-dark);
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    min-width: 130px; */
+    gap: 4px;
+    cursor: pointer;
+    transition: background var(--transition);
+}
+
+.filter-btn:hover {
+    background: var(--bg-muted);
+}
+
+.input-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: var(--text-light);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    padding: 0 var(--space-xs);
+}
+
+.input-wrapper i {
+    color: var(--muted-color);
+    margin-right: 6px;
+}
+
+.input-wrapper input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: var(--text-sm);
+    padding: var(--space-xs) 0;
+}
+
+.filter-wrapper {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--text-light);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    margin-top: 4px;
+    list-style: none;
+    padding: 0;
+    box-shadow: var(--shadow);
+    z-index: 20;
+}
+
+.dropdown li {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-sm);
+    color: var(--text-dark);
+    cursor: pointer;
+    transition: background var(--transition);
+}
+
+.dropdown li:hover {
+    background: var(--bg-muted);
+}
