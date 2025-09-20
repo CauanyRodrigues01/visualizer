@@ -1,7 +1,9 @@
+main {
+    background: linear-gradient(180deg, white 0%, var(--primary-color) 225%);
+}
 .app-header {
     position: sticky;
     top: 0;
-    /* background: linear-gradient(180deg, var(--secondary-color) 0%, var(--primary-color) 100%); */
     background: linear-gradient(180deg, white 0%, var(--primary-color) 225%);
     text-align: center;
     padding: var(--space-lg) var(--space-sm);

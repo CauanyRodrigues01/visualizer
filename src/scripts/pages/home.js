@@ -2,8 +2,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
         <Header />
-        <SearchBar />
         <main>
+            <SearchBar />
             {posts.map((post, index) => (
                 <PostCard
                     key={index}
