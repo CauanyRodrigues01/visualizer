@@ -14,7 +14,7 @@
 @import url("components/postCard.css");
 
 /* 2. Componentes */
-/* @import url('components/navbar.css'); */
+@import url('components/navbar.css');
 
 /* 3. Estilos de Páginas Específicas (se você escolher essa abordagem) */
 @import url("pages/index.css");
