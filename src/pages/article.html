@@ -8,13 +8,13 @@
     <!-- SEO Básico -->
     <meta name="description"
         content="Visualizer é uma plataforma acadêmica para publicação, acesso e colaboração em artigos, projetos e relatórios.">
-    <meta name="keywords" content="Visualizer, artigos acadêmicos, projetos de pesquisa, relatórios, publicações científicas, repositório acadêmico, colaboração estudantil">
+    <meta name="keywords"
+        content="Visualizer, artigos acadêmicos, projetos de pesquisa, relatórios, publicações científicas, repositório acadêmico, colaboração estudantil">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
     <meta property="og:title" content="Visualizer - Repositório Acadêmico">
-    <meta property="og:description"
-        content="Publique, explore e colabore em produções acadêmicas em um só lugar.">
+    <meta property="og:description" content="Publique, explore e colabore em produções acadêmicas em um só lugar.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cauanyrodrigues01.github.io/visualizer/">
     <meta property="og:image" content="https://cauanyrodrigues01.github.io/visualizer/src/images/logo-preview.png">
@@ -33,7 +33,24 @@
 </head>
 
 <body>
-    
+
+    <div class="container">
+        <header id="header-article">
+            <div class="header-content">
+                <a href="#" class="icon-return" role="button"><i class="bi bi-arrow-left"></i></a>
+                <img class="user-img"
+                    src="../images/users/user1.jpg"
+                    alt="conceito-de-felicidade-bem-estar-e-confianca-mulher-afro-americana-atraente-alegre-corte-de-cabelo-encaracolado-peito-de-bracos-cruzados-em-pose-poderosa-e-segura-sorrindo-determinado-usar-sueter-amarelo">
+                <div class="article-details">
+                    <strong class="user-name">Maria Clara</strong>
+                    <small>12 Jun. 2025</small>
+                </div>
+            </div>
+            <button class="btn-save-article"><i class="bi bi-bookmark"></i> Salvar</button>
+        </header>
+    </div>
+
+
     <!-- Importação do React e Babel -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -43,7 +60,7 @@
     <script type="text/babel" src="../scripts/components/Navbar.js"></script>
 
     <!-- Importação do JS específico da página -->
-    <!-- <script src="../scripts/pages/nomeDoArqivo.js"></script> -->
+    <script src="../scripts/pages/article.js"></script>
 </body>
 
 </html>

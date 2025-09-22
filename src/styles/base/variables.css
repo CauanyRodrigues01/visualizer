@@ -14,18 +14,19 @@
 
   /* Cores de bordas */
   --border-dark: #002EFD; 
-  --border-light: #AAAAAA; 
+  --border-light: #9E9E9E; 
 
   /* Cores de texto */
   --text-dark: #4F555A; 
   --text-light: #FFF; 
   --text-accent: #002EFD;
-  --text-muted: #4F555A; 
+  --text-muted: #74797c; 
   --text-success: #5deb5d; 
 
   /* Cores de fundo */
   --bg-light: #F6F6F6;
-  --bg-dark: #002EFD; 
+  --bg-dark: #002EFD;
+  --bg-accent: #ff6b3542; 
   --bg-muted: #E0E0E0; 
   --bg-success: #BFFFBF;
 
@@ -34,7 +35,7 @@
 
   /* Tamanhos de fonte - Regra do 8 (múltiplos de 8px) */
   --text-xs: 0.5rem;     /* 8px */
-  --text-sm: 0.875rem;   /* 14px (exceção) */ 
+  --text-sm: 0.75rem;   /* 12px (exceção) */ 
   --text-base: 1rem;     /* 16px */
   --text-md: 1.25rem;    /* 20px */
   --text-lg: 1.5rem;     /* 24px */
