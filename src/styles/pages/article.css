@@ -32,7 +32,7 @@
 }
 
 .icon-return:active {
-    transform: scale(0.10);
+    transform: scale(0.90);
     box-shadow: var(--shadow);
 }
 
@@ -63,7 +63,7 @@
 
 .btn-save-article {
     border: 2px solid var(--border-light);
-    padding: 0.3rem var(--space-xs);
+    padding: var(--space-2xs) var(--space-xs);
     border-radius: var(--radius);
 }
 

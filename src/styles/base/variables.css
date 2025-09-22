@@ -51,6 +51,7 @@
   --font-weight-bold: 700;
   
   /* Espaçamentos - Regra do 8 (múltiplos de 8px) */
+  --space-2xs: 0.25rem;   /* 4px (exceção) */
   --space-xs: 0.5rem;    /* 8px */
   --space-sm: 1rem;      /* 16px */
   --space-md: 1.5rem;    /* 24px */
