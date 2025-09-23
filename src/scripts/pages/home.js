@@ -2,7 +2,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
         <Header />
-        <main>
+        <main className="mainPostCard">
             <SearchBar />
             {posts.map((post, index) => (
                 <PostCard

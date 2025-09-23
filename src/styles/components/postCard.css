@@ -1,6 +1,10 @@
 /* ==========================
    Post Card
    ========================== */
+.mainPostCard {
+    background: linear-gradient(180deg, white 0%, var(--primary-color) 225%);
+}
+
 .post-card {
     background: var(--text-light);
     border-radius: var(--radius);
