@@ -8,13 +8,13 @@
     <!-- SEO Básico -->
     <meta name="description"
         content="Visualizer é uma plataforma acadêmica para publicação, acesso e colaboração em artigos, projetos e relatórios.">
-    <meta name="keywords" content="Visualizer, artigos acadêmicos, projetos de pesquisa, relatórios, publicações científicas, repositório acadêmico, colaboração estudantil">
+    <meta name="keywords"
+        content="Visualizer, artigos acadêmicos, projetos de pesquisa, relatórios, publicações científicas, repositório acadêmico, colaboração estudantil">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
     <meta property="og:title" content="Visualizer - Repositório Acadêmico">
-    <meta property="og:description"
-        content="Publique, explore e colabore em produções acadêmicas em um só lugar.">
+    <meta property="og:description" content="Publique, explore e colabore em produções acadêmicas em um só lugar.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cauanyrodrigues01.github.io/visualizer/">
     <meta property="og:image" content="https://cauanyrodrigues01.github.io/visualizer/src/images/logo-preview.png">
@@ -33,7 +33,41 @@
 </head>
 
 <body>
-    
+
+    <div class="container">
+        <header id="header-article">
+            <div class="header-content">
+                <a href="#" class="icon-return" role="button"><i class="bi bi-arrow-left"></i></a>
+                <div class="user-info">
+                    <img class="user-img" src="../images/users/user1.jpg"
+                        alt="conceito-de-felicidade-bem-estar-e-confianca-mulher-afro-americana-atraente-alegre-corte-de-cabelo-encaracolado-peito-de-bracos-cruzados-em-pose-poderosa-e-segura-sorrindo-determinado-usar-sueter-amarelo">
+                    <div class="article-details">
+                        <strong class="user-name">Maria Clara</strong>
+                        <small>12 Jun. 2025</small>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-save-article"><i class="bi bi-bookmark"></i> Salvar</button>
+        </header>
+        <main id="article-content">
+            <h1 class="article-title">Tendências de Tecnologia para 2026</h1>
+            <p>A transformação digital segue acelerando e, para 2026, especialistas apontam que a inteligência
+                artificial generativa e a computação quântica terão papel decisivo em setores como saúde, finanças e
+                educação. Além disso, o 5G e a crescente popularização da realidade aumentada prometem mudar a forma
+                como consumimos conteúdo e interagimos com o mundo.</p>
+            <img src="../images/articles/post1/imagem1-article.png"
+                alt="mão de um robô tocando a mão de um humano em uma fundo futurista">
+            <p>Com a inteligência artificial generativa e a computação quântica liderando a revolução tecnológica, o
+                cenário de 2026 se mostra promissor. Na saúde, a IA já auxilia no diagnóstico de doenças e no
+                desenvolvimento de novos medicamentos de forma mais rápida e precisa. A computação quântica promete ir
+                além, permitindo a análise de dados genéticos complexos em segundos, o que abrirá caminho para a
+                medicina personalizada em uma escala nunca antes vista</p>
+            <p>Além disso, o 5G e a crescente popularização da realidade aumentada prometem mudar a forma como
+                consumimos conteúdo e interagimos com o mundo.</p>
+        </main>
+    </div>
+
+
     <!-- Importação do React e Babel -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -43,7 +77,7 @@
     <script type="text/babel" src="../scripts/components/Navbar.js"></script>
 
     <!-- Importação do JS específico da página -->
-    <!-- <script src="../scripts/pages/nomeDoArqivo.js"></script> -->
+    <script src="../scripts/pages/article.js"></script>
 </body>
 
 </html>

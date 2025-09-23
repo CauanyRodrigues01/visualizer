@@ -17,4 +17,5 @@
 @import url('components/navbar.css');
 
 /* 3. Estilos de Páginas Específicas (se você escolher essa abordagem) */
-@import url("pages/index.css");
+@import url('pages/index.css');
+@import url('pages/article.css');
