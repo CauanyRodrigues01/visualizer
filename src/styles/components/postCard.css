@@ -1,7 +1,7 @@
 /* ==========================
    Post Card
    ========================== */
-.mainPostCard {
+.mainStyled {
     background: linear-gradient(180deg, white 0%, var(--primary-color) 225%);
 }
 

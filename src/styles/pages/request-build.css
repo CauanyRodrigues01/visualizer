@@ -1,0 +1,58 @@
+.new-post {
+    padding: var(--space-md);
+}
+
+.form-title {
+    text-align: center;
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-dark);
+    margin-bottom: var(--space-md);
+}
+
+.post-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo geral dos inputs */
+.post-form input,
+.post-form select,
+.post-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: var(--space-sm);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    font-size: var(--text-sm);
+    background: var(--text-light);
+    box-sizing: border-box;
+}
+
+.post-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.post-form input[type="file"] {
+    padding: 8px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: var(--radius);
+    background: var(--primary-color);
+    color: var(--text-light);
+    font-size: var(--text-md);
+    font-weight: var(--font-weight-semibold);
+    cursor: pointer;
+    transition: background var(--transition);
+}
+
+.submit-btn:hover {
+    background: var(--secondary-color);
+}
