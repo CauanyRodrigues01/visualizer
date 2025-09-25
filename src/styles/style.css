@@ -15,3 +15,8 @@
 
 /* 3. Estilos de Páginas Específicas (se você escolher essa abordagem) */
 @import url('pages/index.css');
+<<<<<<< Updated upstream
+=======
+@import url('pages/article.css');
+@import url('pages/login.css');
+>>>>>>> Stashed changes
