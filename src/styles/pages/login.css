@@ -117,28 +117,6 @@
     text-decoration: underline;
 }
 
-/* botão principal */
-.btn-primary {
-    width: 100%;
-    padding: var(--space-sm);
-    background: var(--primary-color);
-    color: var(--text-light);
-    border: none;
-    border-radius: var(--radius);
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    cursor: pointer;
-    transition: background-color var(--transition);
-}
-
-.btn-primary:hover {
-    background: #0026e6;
-}
-
-.btn-primary:active {
-    transform: translateY(1px);
-}
-
 /* Divisor */
 .divider {
     text-align: center;
