@@ -8,13 +8,12 @@
 /* 1. Base (regras gerais e variáveis) */
 @import url("base/variables.css");
 @import url("base/reset.css");
-@import url("components/navbar.css");
-@import url("components/header.css");
-@import url("components/searchBar.css");
-@import url("components/postCard.css");
 
 /* 2. Componentes */
 @import url('components/navbar.css');
+@import url("components/header.css");
+@import url("components/searchBar.css");
+@import url("components/postCard.css");
 
 /* 3. Estilos de Páginas Específicas (se você escolher essa abordagem) */
 @import url('pages/index.css');
