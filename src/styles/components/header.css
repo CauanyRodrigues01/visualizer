@@ -1,6 +1,4 @@
-main {
-    background: linear-gradient(180deg, white 0%, var(--primary-color) 225%);
-}
+
 .app-header {
     position: sticky;
     top: 0;

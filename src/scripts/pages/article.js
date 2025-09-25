@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     window.history.back();
   });
 
-  const headerContent = document.querySelector(".header-content");
+  const userInfoComment = document.querySelector(".user-info");
 
   // Ir para a página de perfil ao clicar no cabeçalho do artigo
-  headerContent.addEventListener("click", () => {
+  userInfoComment.addEventListener("click", () => {
     window.location.href = "../pages/profile.html";
   });
 
