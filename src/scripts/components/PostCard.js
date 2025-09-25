@@ -1,6 +1,6 @@
 const posts = [
     {
-        author: { name: "Pedro Arthur", avatar: "../images/users/user1.jpg" },
+        author: { name: "Maria Clara", avatar: "../images/users/user1.jpg" },
         date: "09 Jun 2025",
         title: "Tendências de Tecnologia para 2026",
         text: "A transformação digital segue acelerando e, para 2026...",
@@ -9,7 +9,7 @@ const posts = [
         comments: 3,
     },
     {
-        author: { name: "Maria Silva", avatar: "../images/users/user2.jpg" },
+        author: { name: "Pedro Aguiar", avatar: "../images/users/user2.jpg" },
         date: "08 Jun 2025",
         title: "Inteligência Artificial no dia a dia",
         text: "Cada vez mais, a IA está presente em nossas vidas...",
@@ -18,7 +18,7 @@ const posts = [
         comments: 15,
     },
     {
-        author: { name: "João Souza", avatar: "../images/users/user3.jpg" },
+        author: { name: "Sabrina Souza", avatar: "../images/users/user3.jpg" },
         date: "07 Jun 2025",
         title: "5 Dicas para Segurança Digital",
         text: "Com o crescimento das ameaças virtuais, é importante...",
