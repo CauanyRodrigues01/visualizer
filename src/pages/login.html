@@ -34,6 +34,58 @@
 
 <body>
 
+    <div class="logo-container">
+        <div class="logo"></div>
+        <img src="../images/logo-favicon.png" alt="Logo Visualizer" class="logo-image">
+    </div>
+
+    <div class="welcome-text">
+        <h1 class="welcome-title">Olá, seja bem vindo ao Visualizer!</h1>
+        <p class="welcome-subtitle">Faça login para entrar</p>
+    </div>
+
+    <form class="login-form">
+        <div class="form-group">
+            <label class="form-label" for="email">E-mail</label>
+            <input  type="email" id="email"  class="form-input" placeholder="Informe o seu E-mail" required>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label" for="password">Senha</label>
+            <div class="password-group">
+                <input type="password" id="password" class="form-input" placeholder="••••••••" required>
+                <button type="button" class="password-toggle" onclick="togglePassword()">
+                    <i class="bi bi-eye"></i>
+                </button>
+            </div>
+            <div class="forgot-password">
+                <a href="#">Esqueceu a sua senha ?</a>
+            </div>
+        </div>
+
+        <button type="submit" class="btn-primary">Entrar</button>
+    </form>
+
+    <div class="divider">Ou</div>
+
+    <!-- Social Login Buttons -->
+    <div class="social-buttons">
+        <button type="button" class="social-btn">
+            <div class="google-icon"></div>Entrar com Google
+        </button>
+        
+        <button type="button" class="social-btn">
+            <div class="microsoft-icon"></div>Entrar com Microsoft
+        </button>
+    </div>
+
+    <!-- Register Link -->
+    <div class="register-link">
+        Ainda não possui uma conta? <a href="#">Se cadastre</a>
+    </div>
+</div>
+
+
     <!-- Importação do React e Babel -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -43,7 +95,7 @@
     <script type="text/babel" src="../scripts/components/Navbar.js"></script>
 
     <!-- Importação do JS específico da página -->
-    <!-- <script src="../scripts/pages/nomeDoArqivo.js"></script> -->
+     <script src="../scripts/pages/login.js"></script> 
 </body>
 
 </html>
