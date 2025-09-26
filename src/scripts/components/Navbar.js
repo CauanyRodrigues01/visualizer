@@ -1,9 +1,17 @@
 function NavBar() {
     const [active, setActive] = React.useState("home");
 
+    function goTo(page, href) {
+        setActive(page); // muda o botão ativo
+        window.location.href = href; // redireciona para outro HTML
+    }
+
     return (
         <div className="bottom-nav">
-            <button className={active === "home" ? "active" : ""} onClick={() => setActive("home")}>
+            <button
+                className={active === "home" ? "active" : ""}
+                onClick={() => goTo("home", "home.html")}
+            >
                 <i className="bi bi-house"></i>
                 Home
             </button>
@@ -16,7 +24,7 @@ function NavBar() {
                 Procurar
             </button>
 
-            <button className="plus-btn">
+            <button className="plus-btn" onClick={() => goTo("new", "request-build.html")}>
                 <i className="bi bi-plus"></i>
             </button>
 
