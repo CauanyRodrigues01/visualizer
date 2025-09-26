@@ -151,6 +151,13 @@
     margin-bottom: var(--space-lg);
 }
 
+.btn-primary {
+  display: inline-block; 
+  text-align: center; 
+  text-decoration: none;
+}
+
+
 .social-btn {
     width: 100%;
     padding: var(--space-sm);
