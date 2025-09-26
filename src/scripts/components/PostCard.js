@@ -1,7 +1,7 @@
 const posts = [
     {
         author: { name: "Maria Clara", avatar: "../images/users/user1.jpg" },
-        date: "09 Jun 2025",
+        date: "12 Jun 2025",
         title: "Tendências de Tecnologia para 2026",
         text: "A transformação digital segue acelerando e, para 2026...",
         image: "../images/articles/post1/imagem1-article.png",
