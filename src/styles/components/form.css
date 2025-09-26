@@ -1,0 +1,36 @@
+
+
+/* wrapper para cada campo do formulário */
+.form-group {
+    margin-bottom: var(--text-accent);
+}
+
+/* labels para os campos */
+.form-label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-dark);
+    margin-bottom: var(--space-xs);
+}
+
+/* estilização base para inputs */
+.form-input {
+    width: 100%;
+    padding: var(--space-sm);
+    font-size: var(--text-base);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    background: var(--text-light);
+    color: var(--text-dark);
+    transition: border-color var(--transition);
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.form-input::placeholder {
+    color: var(--text-muted);
+}
