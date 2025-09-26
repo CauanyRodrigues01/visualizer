@@ -1,0 +1,20 @@
+{
+  "name": "Vizualizer",
+  "short_name": "Vizualizer",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F6F6F6",
+  "theme_color": "#002EFD",
+  "icons": [
+    {
+      "src": "src/images/logo-favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "src/images/logo-favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
